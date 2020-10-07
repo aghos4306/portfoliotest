@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo">Portfolio</li>
+        <li class="items"><a href="#">Home</a></li>
+        <li class="items"><a href="#">PORTFOLIO</a></li>
+        <li class="items"><a href="#">BOOKS</a></li>
+        <li class="items"><a href="#">MEDIA</a></li>
+        <li class="items"><a href="#">ABOUT ME</a></li>
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+     </ul>
+    </nav>
+    <section class="section-head">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quaerat.</p>
+        <button type="button">Read More</button>
+    </section>
+    <section class="portfolio">
+        <div class="portfolio-img"><img src="img/port-pic.jpg" alt="portImg"></div>
+        <div class="portfolio-text">
+            <h3>Lorem ipsum dolor sit.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ratione velit laudantium. Optio quasi animi dolor deleniti iusto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellendus veritatis distinctio error facilis quam exercitationem iusto quidem.</p>
+            <ul class="listObjects">
+                <li>List Item 3</li>
+                <li>List Item 2</li>
+                <li>List Item 1</li>
+            </ul>
+        </div>
+    </section>
+    <section class="myskills">
+        <div class="myskills-text">
+            <h1>My Skills</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis consectetur mollitia, eveniet impedit necessitatibus obcaecati illum. Fugit, iure ipsa! Placeat debitis possimus facere quo iusto ratione a. Inventore doloribus esse at nulla porro autem earum excepturi doloremque aliquam! Eligendi libero iusto sit enim delectus.</p>
+        </div>
+        <div class="myskills-gif">
+            <div class="icon-item">
+                <i class="fab fa-html5"></i>
+                <div class="icon-text">HTML</div>
+                <div class="html-progress"></div>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-css3-alt"></i>
+                <div class="icon-text">css</div>
+                <div class="css-progress"></div>
+            </div>
+            <div class="icon-item">
+                <i class="fab fa-js-square"></i>
+                <div class="icon-text">JS</div>
+                <div class="js-progress"></div>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-eraser"></i>
+                <div class="icon-text">UI Design</div>
+                <div class="ui-progress"></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-details">
+        <div class="contact-one contact">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta asperiores neque dolorum obcaecati.</p>
+        </div>
+        <div class="contact-two contact">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sapiente porro magni laudantium, consequuntur excepturi.</p>
+        </div>
+        <div class="contact-form contact">
+            <h3>Contact Me</h3>
+            <form>
+                <div class="user-details">
+                    <div>
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" />
+                    </div>
+                    <br />
+                    
+                    <div>
+                      <label for="email">Email:</label>
+                      <input type="text" id="email" name="email" />
+                    </div><br />
+                    <div>
+                        <label for="">Phone Number:</label>
+                        <input type="number" id="phonenumber" name="number" />
+                    </div> <br />
+                  </div>
+                  <button type="button">SEND</button>
+                  <div id="backToTop">
+                      <button type="button" id="scrollTop" class="scrollTop">BACK UP</button>
+                  </div>
+            </form>
+        </div>
+    </section>
+    <script>
+        //scrolltoTop button
+            const scrollToTop = document.querySelector('#scrollTop');
+            scrollToTop.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+  </body>
+</html>
+
